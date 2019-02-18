@@ -20,7 +20,6 @@ public class Quincena6 {
         
        
         
-     
         //Scanners
         Scanner teclado = new Scanner(System.in); //Este scanner es para el anyo actual.
         Scanner tec = new Scanner(System.in); //Este scanner es para la pers2, ya que daba un bug si se utilizaba el scanner teclado.
@@ -31,8 +30,10 @@ public class Quincena6 {
         System.out.println("Dime el anyo actual: ");
         anyo = teclado.nextInt();
         
-        //Variables necesarias para el ejercicio.
+        //Variables que necesitamos para el ejercicio.
         int solucion, solucion1, solucion2;
+        
+        //Nuevo comentario para el GitHub.
         
         
         
